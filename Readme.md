@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Мария Вальтер](https://up.htmlacademy.ru/htmlcss/30/user/1424981).
-* Наставник: `Неизвестно`.
+* Наставник: [Olga Yuzich] (https://htmlacademy.ru/profile/id350391)
 
 ---
 
