@@ -13,12 +13,39 @@
         </a>
         <ul>
           <li><a href="#">Каталог</a></li>
-          <li><a href="#">Доставка и оплата</a></li>
+          <select name="catalog">
+            <option value="new">Новинки</option>
+            <option value="cream">Сливочные</option>
+            <option value="sorbet">Щербеты</option>
+            <option value="ice">Фруктовый лед</option>
+            <option value="melorin">Мелорин</option>
+          </select>
+                    <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">О компании</a></li>
                  </ul>
                  <ul>
                   <li><a href="#">Поиск</a></li>
+                  <form action="https://echo.htmlacademy.ru" method="post">
+                    <label for="search"></label>
+                    <input id="search" type="search" name="search" 
+                    placeholder="Крем-брюле">
+
                   <li><a href="#">Вход</a></li>
+                  <form action="https://echo.htmlacademy.ru" method="post">
+                    <label for="login-login"></label>
+                    <input id="login-login" type="email" name="login" 
+                    placeholder="email@example.com">
+              
+                    <label for="login-password"></label>
+                    <input id="login-password" type="password" 
+                    name="password" placeholder="••••••••">
+
+                      <a href="#">Забыли пароль?</a>
+                      <a href="#">Новая регистрация</a>
+
+                      <button type="submit">Войти</button>
+                </form>
+                <button type="button">Закрыть</button>
                   <li><a href="#">Корзина</a></li>
                          </ul>
       </nav>
@@ -29,8 +56,9 @@
     <main>
       <h1>Крем-брюле и пломбир с малиновым джемом</h1>
       <button type="button">Давайте оба!</button>
-        </main>
-<section> <h1>Малинка даром! </h1>
+        
+<section> 
+  <h1>Малинка даром! </h1>
   <br>
   <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
 </p>
@@ -41,7 +69,12 @@
   </p>
   <button type="button">Хочу шоколадки!</button>
     </section>
-    <section>
+    
+      <input type="radio" action = "index.html" name="page" value="1"checked> 
+      <input type="radio" action = "index2.html" name="page" value="2" >
+      <input type="radio" action = "index3.html" name="page" value="3" >
+              
+      <section>
       <ul>
         <li><p> Хит
           <br>
@@ -66,6 +99,7 @@
           Сливочное крем-брюле  с карамельной подливкой </p></li>
       </ul>
     </section>
+
     <section>
       <h1>Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес
       </h1>
@@ -80,14 +114,19 @@
       <h1>Новое в нашем блоге</h1>
       <a href="blank.html"> 10 способов сервировки фруктовых щербетов к столу</a>
     </section>
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-    <section>
-    <label for="e-mail-address">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</label>
-    <input id="e-mail-address" type="e-mail" name="e-mail-address" placeholder="email@example.com">
-  </p>
+
+      <section>
+   <form>
+    <label for="e-mail-address">Подпишитесь на нашу сладкую 
+      рассылку и будьте всегда в курсе всего самого вкусного, 
+      что у нас происходит. Обещаем не спамить и не слать всякой 
+      ненужной ерунды. Честно =)</label>
+    <input id="e-mail-address" type="e-mail" name="e-mail-address" 
+    placeholder="email@example.com">
   <button type="submit">Отправить</button>
 </form>
 </section>
+</main>
 <footer>
   <section>
     <!--карта -->
