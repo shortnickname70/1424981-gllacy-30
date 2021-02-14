@@ -14,7 +14,7 @@
                 <img src="img/index-logo.svg" width="154" height="64" alt="Логотип Gllasy Shop">
             </a>
             <ul>
-                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Каталог</a>
                     <ul>
                         <li><a href="#">Новинки</a> </li>
                         <li><a href="#">Сливочные</a> </li>
@@ -22,6 +22,7 @@
                         <li><a href="#">>Фруктовый лед</a> </li>
                         <li><a href="#">Мелорин</a> </li>
                     </ul>
+                </li>
             <li><a href="#">Доставка и оплата</a></li>
             <li><a href="#">О компании</a></li>
             </ul>
@@ -76,12 +77,20 @@
                 <option value="more-expensive">сначала дорогие</option>
                 <option value="more-fat">по жирности</option>
             </select>
-        </form>
-        <div class="slidecontainer">Цена 100 ₽ -500 ₽
-          <input type="range" min="100" max="500" value="100" step="10" class="slider" id="myRange">
+        </form>       
+      <form>    
+        <p>Цена 100 ₽ -500 ₽</p>
+        <div class="price-slider">
+          <div class = "price-slider-whole-line">
+            <div class = "price-slider-selected-segment">
+              <span class="price-dot min-price-dot"></span>
+              <span class="price-dot max-price-dot"></span>
+            </div>
+          </div>
         </div>
+      </form>    
 
-        <form action="#" method="post">
+                <form action="#" method="post">
 
             <p><i>Жирность:</i></p>
             <label>
@@ -316,7 +325,8 @@
              
     </main>
     <footer>
-        <section>Социальные сети
+        <section> 
+          <h2>Социальные сети</h2>
             <ul>
               <li>
                 <a href="#"><img src="img/vector вк.svg" 
@@ -336,7 +346,7 @@
               </li>
             </ul>
           </section>
-        <section>ссылки
+        <section> <h2>ссылки</h2>
           <ul>
             <li>
               <a href="blank.html">Для поставщиков</a>
