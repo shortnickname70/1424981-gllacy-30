@@ -1,62 +1,66 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class= "catalog">
 
 <head>
     <meta charset="UTF-8">
     <title>Каталог Магазин мороженого</title>
 </head>
 
-<body>
+<body clas="body-catalog">
 
-    <header>
-        <nav>
-            <a>
-                <img src="img/index-logo.svg" width="154" height="64" alt="Логотип Gllasy Shop">
-            </a>
-            <ul>
-                <li><a href="#">Каталог</a>
-                    <ul>
-                        <li><a href="#">Новинки</a> </li>
-                        <li><a href="#">Сливочные</a> </li>
-                        <li><a href="#">Щербеты</a> </li>
-                        <li><a href="#">>Фруктовый лед</a> </li>
-                        <li><a href="#">Мелорин</a> </li>
-                    </ul>
-                </li>
-            <li><a href="#">Доставка и оплата</a></li>
-            <li><a href="#">О компании</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Поиск</a>
-                    <form action="https://echo.htmlacademy.ru" method="post">
-                        <label for="search"></label>
-                        <input id="search" type="search" name="search" placeholder="Крем-брюле">
-                    </form>
-                </li>
+  <header class="main-header" >
+    <nav class="main-navigator"> 
+      <a class= "Logo-gllasy">
+        <img src="img/Лого.svg" width="154" height="64" 
+        alt="Логотип Gllasy Shop">
+      </a>
+      <ul>
+        <li><a href="catalog.html">Каталог</a>
+          <ul>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Сливочные</a> </li>
+            <li><a href="#">Щербеты</a> </li>
+            <li><a href="#">>Фруктовый лед</a> </li>
+            <li><a href="#">Мелорин</a> </li> 
+        </ul>
+      </li>
+      <li><a href="#">Доставка и оплата</a></li>
+      <li><a href="#">О компании</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><img src="img/Иконка поиск.svg" width="20" 
+          height="19" alt="иконка поиск">Поиск</a>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <label for="search">
+              <button type="submit" class= "button button-header"></button>
+            </label>
+            <input id="search" type="search" name="search" placeholder="Крем-брюле">
+          </form>
+        </li>
 
-                <li><a href="#">Вход</a>
-                    <form action="https://echo.htmlacademy.ru" method="post">
-                        <label for="login-login"></label>
-                        <input id="login-login" type="email" name="login" placeholder="email@example.com">
+        <li><a href="#"><img src="img/Иконка вход.svg" width="20" height="19" alt="иконка входа">Вход</a>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <label for="login-login"></label>
+            <input id="login-login" type="email" name="login" placeholder="email@example.com">
 
-                        <label for="login-password"></label>
-                        <input id="login-password" type="password" name="password" placeholder="••••••••">
+            <label for="login-password"></label>
+            <input id="login-password" type="password" name="password" placeholder="••••••••">
 
-                        <a href="#">Забыли пароль?</a>
-                        <a href="#">Новая регистрация</a>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
 
-                        <button type="submit">Войти</button>
-                    </form>
-                    <button type="button">Закрыть</button>
-                </li>
-                <li><a href="#">Корзина</a></li>
-            </ul>
-        </nav>
-        <p>с 10 до 20, ежедневно</p>
-        <p>8 812 450-25-25</p>
-    </header>
-    <main>
-        <ul>
+            <button type="submit" class= "button button-header">Войти</button>
+          </form>
+          <button type="button" class= "button button-header">Закрыть</button>
+        </li>
+        <li><a href="#">Корзина</a></li>
+      </ul>
+    </nav>
+    <p class= "work-time">с 10 до 20, ежедневно</p>
+    <p class= "phone-number">8 812 450-25-25</p>
+  </header>
+    <main class="main-catalog">
+        <ul class="breadcrumbs">
             <li>
               <a href="index.html">Главная</a>
             </li>
@@ -67,18 +71,19 @@
               Сливочное
             </li>
           </ul>
-        <h1>Сливочное мороженое</h1>
-               <section> 
+        <h1 class = "catalog-h1">Сливочное мороженое</h1>
+               <div class= "sorting"> 
                  <form action="#" method="post">
-            <p><i>Сортировка:</i></p>
-            <select name="variantions">
+            <p>Сортировка:</p>
+            <select name="variantions" class="sorting-items">
                 <option value="popular">по популярности</option>
                 <option value="cheapear">сначала недорогие</option>
                 <option value="more-expensive">сначала дорогие</option>
                 <option value="more-fat">по жирности</option>
             </select>
-        </form>       
-      <form>    
+        </form> 
+        </div>
+     <div> <form>    
         <p>Цена 100 ₽ -500 ₽</p>
         <div class="price-slider">
           <div class = "price-slider-whole-line">
@@ -88,9 +93,10 @@
             </div>
           </div>
         </div>
+        </div>
       </form>    
 
-                <form action="#" method="post">
+      <div> <form action="#" method="post">
 
             <p><i>Жирность:</i></p>
             <label>
@@ -111,8 +117,8 @@
 
             <input type="submit" value="Отправить">
         </form>
-
-        <form method="get" action="#">
+      </div>
+      <div><form method="get" action="#">
             <fieldset>
                 <legend>Наполнители:</legend>
                 <ul>
@@ -144,7 +150,9 @@
                 </ul>
             </fieldset>
         </form>
+
         <button type="button">Применить</button>
+      </div>
         <h2>Мороженое </h2>
         <ul>
             <li>
