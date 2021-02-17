@@ -1,0 +1,45 @@
+ @font-face {
+            font-family: "Roboto"; 
+            font-weight: 400;
+            font-style: normal;
+            src: local("Fonts"),
+            url("roboto.woff2") format("woff2"),
+            url("roboto.woff") format("woff");
+          }
+          
+ @font-face {
+            font-family: "Roboto";
+            font-weight: 500;
+            font-style: normal;
+            src: local("Fonts"),
+            url("roboto.woff2") format("woff2"),
+            url("roboto.woff") format("woff");
+          }
+          
+ @font-face {
+            font-family: "Roboto";
+            font-weight: 700;
+            font-style: normal;
+            src: local("Fonts"),
+            url("roboto.woff2") format("woff2"),
+            url("roboto.woff") format("woff"); 
+        }
+        body {
+            font-family: "Roboto", "Arial", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+:root {
+--basic-black: #000000;
+--basic-white: #ffffff;
+--basic-grey-index2:  #8996A6;;
+--basic-brown-index3: #9D8B84;
+--basic-green-index1: #849D8F;
+--basic-address-on-a-map-background #FEFEFE;
+--basic-index-and-catalog-body-buttons-red : linear-gradient(180deg, #F26843 0%, #E74A35 100%);
+--basic-feedback-and-other-forms-background-beige: #F8F7F4;
+--basic-CATALOG-button-red: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, 
+rgba(255, 255, 255, 0) 100%);
+--basic-catalog-filters-and-header-buttons-light-grey: rgba(255, 255, 255, 0.2);
+--basic-catalog-button-background: #D07058;
+          }
