@@ -42,4 +42,231 @@
 rgba(255, 255, 255, 0) 100%);
 --basic-catalog-filters-and-header-buttons-light-grey: rgba(255, 255, 255, 0.2);
 --basic-catalog-button-background: #D07058;
-          }
+--basic-logo-glassy-background: #FBFCFB;
+
+.page {background-color: #849D8F;
+    background-position: absolute;
+    width: 1200px;
+    height: 2419px;
+    left: 0px;
+    top: 0px;
+}
+body {font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 16 px;
+    line-height: 22 px;
+    }
+img {
+max-width: 100%;
+height: auto;
+}
+a {
+text-decoration: none;
+  }
+
+.main-navigator.Logo-gllasy{
+position: absolute;
+width: 154px;
+height: 64px;
+left: 27px;
+top: 9px;
+background-color: #FBFCFB;
+}
+.header-catalog {
+position: absolute;
+width: 61px;
+height: 11px;
+left: 205px;
+top: 32px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.header-catalog-list {
+position: absolute;
+width: 143px;
+height: 171px;
+left: 184px;
+top: 59px;
+font-size: 14px;
+line-height: 16px;
+background-color: white;
+color:var(--basic-black);
+display: flex;
+align-items: center;
+color: #323232;
+background: #FFFFFF;
+box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+border-radius: 4px;
+}
+.header-delivery-and-pay{
+position: absolute;
+width: 142px;
+height: 11px;
+left: 298px;
+top: 32px;
+
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.header-about-company {
+    position: absolute;
+    width: 90px;
+    height: 11px;
+    left: 472px;
+    top: 32px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+     
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.search-button {
+position: absolute;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+left: 929px;
+top: 23px;
+background: rgba(255, 255, 255, 0.2);
+}
+.login-button {
+    position: absolute;
+    width: 92px;
+    height: 32px;
+    left: 971px;
+    top: 23px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.close-button {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 1073px;
+    top: 23px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+.basket {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 1073px;
+    top: 23px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+.work-time { 
+    position: absolute;
+    width: 149px;
+    height: 16px;
+    left: 1024px;
+    top: 75px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  
+}
+.phone-number {
+    position: absolute;
+    width: 167px;
+    height: 24px;
+    left: 1006px;
+    top: 99px;
+   
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+}
+.page+h1 {
+background: url(Мороженко 2.png)
+ absolute
+ 333px
+ 519px
+ 591px
+ 126px,
+
+url(Мороженко 1.png)
+ absolute
+ 372px
+ 584px
+ 277px
+ 83px;
+
+position: absolute;
+width: 672px;
+height: 119px;
+left: 264px;
+top: 398px;
+
+font-weight: bold;
+font-size: 60px;
+line-height: 60px;
+text-align: center;
+}
+
+page+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: left;
+}
+
+.main-action-raspberry{
+background-image: url(raspberry-background.jpg)
+absolute
+ 560px
+ 229px
+ 27px
+ 647px
+border-radius: 16px;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: right;
+}
+
+.main-action-chocolate {
+    background-image: url(chocolate-background)
+absolute
+560px
+229px
+613px
+647px
+border-radius: 16px;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: left;
+}
+.action-button {
+    position: absolute, right, bottom;
+    background: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+    border-radius: 70px;
+    padding-bottom:22 px
+    padding-r
+
+}
