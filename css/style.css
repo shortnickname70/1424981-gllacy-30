@@ -44,6 +44,8 @@ rgba(255, 255, 255, 0) 100%);
 --basic-catalog-button-background: #D07058;
 --basic-logo-glassy-background: #FBFCFB;
 
+/* Главная */
+
 .page {background-color: #849D8F;
     background-position: absolute;
     width: 1200px;
@@ -120,6 +122,15 @@ align-items: center;
 
 color: #FFFFFF;
 }
+.forget-password, .new-regostration {
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: left;
+color: #323232;
+}
 
 .header-about-company {
     position: absolute;
@@ -167,13 +178,12 @@ background: rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
 }
-.basket {
+.basket {focus:
     position: absolute;
     width: 100px;
     height: 32px;
     left: 1073px;
     top: 23px;
-    
     background: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
 }
@@ -200,15 +210,15 @@ background: rgba(255, 255, 255, 0.2);
     font-size: 22px;
     line-height: 24px;
 }
-.page+h1 {
-background: url(Мороженко 2.png)
+.page h1 {
+background-image: url(icecream on index 2.png)
  absolute
  333px
  519px
  591px
  126px,
 
-url(Мороженко 1.png)
+url(icecream on index 1.png)
  absolute
  372px
  584px
@@ -227,7 +237,7 @@ line-height: 60px;
 text-align: center;
 }
 
-page+h2 {
+page h2 {
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;
@@ -249,7 +259,7 @@ text-align: right;
 }
 
 .main-action-chocolate {
-    background-image: url(chocolate-background)
+background-image: url(chocolate-background)
 absolute
 560px
 229px
@@ -267,6 +277,189 @@ text-align: left;
     box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
     border-radius: 70px;
     padding-bottom:22 px
-    padding-r
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.icercream-price{
+font-weight: bold;
+font-size: 45px;
+line-height: 45px;
+display: flex;
+text-align: left;
+}
+.kg {
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+text-align: left;
+}
 
+.icecream-names {font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.main-advantages {
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #323232;
+text-align: left;
+background-image: url(waffles-background.jpg);
+position: absolute;
+width: 1146px;
+height: 306px;
+left: 27px;
+top: 1280px;
+border-radius: 16px;
+}
+
+.features-item {
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+text-align: left;
+color: #323232;
+}
+
+page h5 {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+text-align: left;
+color: #323232;
+}
+page h5 a {
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+color: #323232;
+text-align: left;
+}
+
+.mail {
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+text-align: left;
+color: #5A5A5A;
+background-image: url(post-background.jpg);
+}
+
+.button{
+position: absolute;
+background: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
+box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+border-radius: 70px;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+text-align: center;
+}
+.footer-links{
+font-size: 13px;
+line-height: 18px;
+display: flex;
+align-items: center;
+}
+.footer-copyright {
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.blog {
+background-image: url(strawberry-background.jpg)
+position: absolute;
+width: 560px;
+height: 220px;
+left: 27px;
+top: 1626px;
+border-radius: 16px;
+}
+
+
+
+/* Каталог */
+
+.breadcrumbs {
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: left;
+}
+
+.filtres-h1 {
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF
+text-align: center;
+}
+
+.names-of-filters
+{font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+text-align: left;
+}
+
+.sorting-items filter {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: flex-end;
+text-align: left;
+}
+
+.filter {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+}
+
+.to-apply-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: flex-end;
+text-align: center;    
+}
+.pages-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #323232;
+}
+
+.sorting-items-filter,.price-slider-filter,.fat-content,.Excipients {
+background: rgba(255, 255, 255, 0.2);
+border-radius: 20px;
 }

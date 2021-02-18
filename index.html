@@ -16,25 +16,24 @@
   <header class="main-header" >
     <nav class="main-navigator"> 
       <a class= "Logo-gllasy">
-        <img src="img/Лого.svg" width="154" height="64" 
+        <img src="img/Logo-gllasy.svg" width="154" height="64" 
         alt="Логотип Gllasy Shop">
       </a>
       <ul>
-        <li class="header-catalog"><a href="catalog.html">Каталог</a>
-          <ul class = "header-catalog-list">
-            <li><a href="#">Новинки</a></li>
-            <li><a href="#">Сливочные</a> </li>
-            <li><a href="#">Щербеты</a> </li>
-            <li><a href="#">>Фруктовый лед</a> </li>
-            <li><a href="#">Мелорин</a> </li> 
-        </ul>
-      </li>
+        <li><a href="catalog.html" class= "header-catalog">Каталог</a></li>
+        <select name="icecreams-catalog"  class= "icecreams-catalog-list">
+          <option value="new-icecreams"> <a href="#">Новинки</a></option>
+          <option value="creamy-icecreams"><a href="#">Сливочные</a></option>
+          <option value="sorbets"> <a href="#">Щербеты</a> </option>
+          <option value="fruit-ice"><a href="#">Фруктовый лед</a></option>
+          <option value="melorine"><a href="#">Мелорин</a> </option>
+        </select>
       <li class="header-delivery-and-pay"><a href="#">Доставка и оплата</a></li>
       <li class="header-about-company"> <a href="#">О компании</a></li>
       </ul>
       <ul>
-        <li><a href="#"><img src="img/Иконка поиск.svg" width="20" 
-          height="19" alt="иконка поиск">Поиск</a>
+        <li class= "search-button"><a href="#"><img src="img/icon searching.svg" width="20" 
+          height="19" alt="иконка поиск"></a>
           <form action="https://echo.htmlacademy.ru" method="post">
             <label for="search">
               <button type="submit" class= "button button-header"></button>
@@ -43,7 +42,7 @@
           </form>
         </li>
 
-        <li><a href="#"><img src="img/Иконка вход.svg" width="20" height="19" alt="иконка входа">Вход</a>
+        <li><a href="#"><img src="img/icon empty .svg" width="20" height="19" alt="иконка входа">Вход</a>
           <form action="https://echo.htmlacademy.ru" method="post">
             <label for="login-login"></label>
             <input id="login-login" type="email" name="login" placeholder="email@example.com">
@@ -51,14 +50,15 @@
             <label for="login-password"></label>
             <input id="login-password" type="password" name="password" placeholder="••••••••">
 
-            <a href="#">Забыли пароль?</a>
-            <a href="#">Новая регистрация</a>
+            <a href="#" class= "forget-password">Забыли пароль?</a>
+            <a href="#" class = "new-regostration">Новая регистрация</a> 
 
-            <button type="submit" class= "button button-header">Войти</button>
+            <button type="submit" class= "login-button button-header">Войти</button>
           </form>
-          <button type="button" class= "button button-header">Закрыть</button>
+          <button type="button" class= "close-button button-header">Закрыть</button>
         </li>
-        <li><a href="#">Корзина</a></li>
+        <li class= "basket"><a href="#"><img src="img/icon vector basket.png" width="21" 
+          height="20" alt="значок Корзина"> Корзина</a></li>
       </ul>
     </nav>
     <p class= "work-time">с 10 до 20, ежедневно</p>
@@ -73,39 +73,41 @@
       <br>
       <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
       </p>
-      <button type="submit" class= "button" value="Хочу варенье!"></button>
+      <button type="submit" class= "action-button" value="Хочу варенье!"></button>
     </section>
+
     <section class = "main-action-chocolate">Акция2
-      <h3>Шоколадки даром! </h3>
+      <h2>Шоколадки даром! </h2>
       <br>
       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно. .
       </p>
-      <button type="submit" class= "button" value="Хочу шоколадки!"></button>
+      <button type="submit" class= "action-button" value="Хочу шоколадки!"></button>
     </section>
+
   <section class = "main-icecream-hits-list">
       <ul>
-        <li class= "main-icecream-hits"><img src="img/хит 1 Сливочное с апельсиновым джемом и цитрусовой стружкой.jpg" width="267" height="267" 
+        <li class= "main-icecream-hits"><img src="img/hit 1 creamy with orange jam and citrus powderй.jpg" width="267" height="267" 
           alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" >
 
           <span class= "icercream-price"> 310 <span>&#8381;</span><span class="kg">/кг</span>/кг</span>
 
           <p class= "icecream-names"> Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
         </li>
-        <li class= "main-icecream-hits">  <img src="img/хит 2 Сливочно-кофейное с кусочками шоколада.jpg" width="267" height="267" 
+        <li class= "main-icecream-hits">  <img src="img/hit 2 creamy-coffee with chocolate drops.jpg" width="267" height="267" 
           alt="Сливочно-кофейное с кусочками шоколада" >
 
           <span class= "icercream-price"> 380 <span>&#8381;</span><span class="kg">/кг</span>/кг</span>
 
           <p class= "icecream-names">Сливочно-кофейное с кусочками шоколада</p>
         </li>
-        <li class= "main-icecream-hits"> <img src="img/хит 3 Сливочно-клубничное с присыпкой из белого шоколада.jpg" width="267" height="267" 
+        <li class= "main-icecream-hits"> <img src="img/hit 3 creamy strawberry with whitechocolate drops.jpg" width="267" height="267" 
           alt="Сливочно-клубничное с присыпкой из белого шоколада" >
 
           <span class= "icercream-price"> 355 <span>&#8381;</span><span class="kg">/кг</span>/кг</span>
 
           <p class= "icecream-names"> Сливочно-клубничное с присыпкой из белого шоколада </p>
         </li>
-        <li class= "main-icecream-hits"> <img src="img/хит 4 Сливочное крем-брюле с карамельной подливкой.jpg" width="267" height="267" 
+        <li class= "main-icecream-hits"> <img src="img/hit 4 creamy cream-brule with caramel topping.jpg" width="267" height="267" 
           alt="Сливочное крем-брюле с карамельной подливкой" >
 
           <span class= "icercream-price"> 415 <span>&#8381;</span><span class="kg">/кг</span> </span>
@@ -118,14 +120,14 @@
     <div class= "main-advantages">
       <h4>Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес
       </h4>
-      <ul class= "features-list">
-        <li class= "features-item"><img src="img/значок Мороженое.png" width="16" height="32" alt="значок Мороженое" >Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и
+      <ul>
+        <li class= "features-item"><img src="img/icon icecream.png" width="16" height="32" alt="значок Мороженое" >Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и
           проверенных временем технологий.</li>
-        <li class= "features-item"><img src="img/значок  Корова.png." width="24" height="24" alt="значок Корова">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас
+        <li class= "features-item"><img src="img/icon cow.png" width="24" height="24" alt="значок Корова">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас
           связывает долговременное сотрудничество.</li>
-        <li class= "features-item"><img src="img/значок Листик.png" width="16" height="27" alt="значок Листик">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные
+        <li class= "features-item"><img src="img/icon Leaves.png" width="16" height="27" alt="значок Листик">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные
           ингредиенты и добавки произведены из натурального, экологически чистого сырья.</li>
-        <li class= "features-item"><img src="img/значок Градусник.png" width="16" height="26" alt="значок Градусник">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому
+        <li class= "features-item"><img src="img/icon thermometer.png" width="16" height="26" alt="значок Градусник">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому
           растаять в пути и позволяет сохранить превосходный вкус.</li>
       </ul>
     </div>
@@ -144,56 +146,55 @@
         <button type="submit" class= "button" value = "Отправить"></button>
       </form>
     </div>
-   <section class= "map"> <h2>Карта </h2>
+   <section class= "map"> <h3>Карта </h3>
     <img src="img/map.jpg" width="1200" height="430" alt="Карта" >
-    <img src="img/icecream on the map.svg" width="80" height="140" alt="Значок мороженого на карте, означающий местоположение магазина">
+    <img src="img/icon red icecream on a map.png" width="80" height="140" alt="Значок мороженого на карте, означающий местоположение магазина">
             </section> 
   </main>
- 
   
 
    <footer class="main-footer">
 
         <section class="footer-socials"> 
-          <h2>Социальные сети</h2>
+          <h6>Социальные сети</h6>
             <ul>
               <li>
-                <a href="#" class="social-button"><img src="img/vector вк.svg" 
+                <a href="#" class="social-button"><img src="img/icon Vector VK.svg" 
                   width="32" height="32" alt="Значок Вк"></a>
               </li>
               <li>
-                <a href="#" class="social-button"><img src="img/vector фб.svg" width="32" 
+                <a href="#" class="social-button"><img src="img/icon Vector FB.svg" width="32" 
                   height="32" alt="Значок фб"></a>
               </li>
               <li>
-                <a href="#" class="social-button"><img src="img/vector инст.svg" width="32" 
+                <a href="#" class="social-button"><img src="img/icon Vector INSTA.svg" width="32" 
                   height="32" alt="Значок инстаграма"></a>
               </li>
               <li>
-                <a href="#" class="social-button"><img src="img/Vector твит.svg.svg" width="32" 
+                <a href="#" class="social-button"><img src="img/icon Vector TWITT.svg." width="32" 
                   height="32" alt="Значок твиттера"></a> 
               </li>
             </ul>
           </section>
-        <section class= "footer-links"> <h2>ссылки</h2>
+        <section class= "footer-links"> <h7>ссылки</h7>
           <ul>
             <li>
-              <a href="blank.html" class= "footer-link-left">Для поставщиков</a>
+              <a href="blank.html" >Для поставщиков</a>
             </li>
             <li>
-              <a href="blank.html" class= "footer-link-left">О производстве</a>
+              <a href="blank.html" >О производстве</a>
             </li>
             <li>
-              <a href="blank.html" class= "footer-link-right">Наши документы</a>
+              <a href="blank.html" >Наши документы</a>
             </li>
             <li>
-              <a href="blank.html" class= "footer-link-right">Экологические стандарты</a>
+              <a href="blank.html">Экологические стандарты</a>
             </li>
           </ul>
         </section>
         <p class="footer-copyright">
           Разработано:
-          <img src="Лого академии.png" width="108" height="39" alt="Логотип htmlacademy"> Сделано в: <a
+          <img src="Logo-Academy.png" width="108" height="39" alt="Логотип htmlacademy"> Сделано в: <a
             href="https://htmlacademy.ru">
             HTML Academy  2019 &copy;</a>
         </p>
