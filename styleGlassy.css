@@ -24,18 +24,14 @@
             url("roboto.woff2") format("woff2"),
             url("roboto.woff") format("woff"); 
         }
-        body {
-            font-family: "Roboto", "Arial", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-          }
+        
 :root {
 --basic-black: #000000;
 --basic-white: #ffffff;
 --basic-grey-index2:  #8996A6;;
 --basic-brown-index3: #9D8B84;
 --basic-green-index1: #849D8F;
---basic-address-on-a-map-background #FEFEFE;
+--basic-address-on-a-map-background: #FEFEFE;
 --basic-index-and-catalog-body-buttons-red : linear-gradient(180deg, #F26843 0%, #E74A35 100%);
 --basic-feedback-and-other-forms-background-beige: #F8F7F4;
 --basic-CATALOG-button-red: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, 
@@ -45,16 +41,37 @@ rgba(255, 255, 255, 0) 100%);
 --basic-logo-glassy-background: #FBFCFB;
 }
 
+body {
+  font-family: "Roboto", "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #9D8B84;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+  .container{
+    width: 1146px;
+    margin: 0 auto;
+    padding: 0;
+ 
+}
 /* Главная */
 
 .body-grid {
-background: #9D8B84;
 display: grid;
-grid-template-rows: 75px 560px min-content min-content 306px 300px 430px 103px;
+grid-template-rows: 125px 560px min-content min-content 306px 300px 430px 103px;
 }
 
 
-/* грид-разметка */
+/* грид-разметка главной*/
 
 
 
@@ -87,10 +104,18 @@ footer {
   grid-row: 8/9; 
 }
 
-/* грид-разметка конец*/
+/* грид-разметка главной конец*/
 
 
 
 .header-wrapper {
   display: flex;
+  height: 125px;
 }
+.header-navigation {
+  display: flex;
+  max-width: 360px;
+  justify-content: space-between;
+  list-style: none;
+}
+|
